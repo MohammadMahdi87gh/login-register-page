@@ -142,6 +142,12 @@ input {
     .dsmn {
         display: none;
     }
+    .div-form {
+        width: 70%;
+    }
+    input::placeholder {
+        font-size: .6rem;
+    }
 }
 
 
