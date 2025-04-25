@@ -1,0 +1,148 @@
+body {
+    font-family: vazir-bold;
+}
+
+.bg-img {
+    background-image: url(../Pictuers/coffee-cup-with-beans_522560-14655.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: vazir-bold;
+    src: url(../Fonts/Vazir-Bold.ttf);
+}
+
+@font-face {
+    font-family: vazir-med;
+    src: url(../Fonts/Vazir-Medium.ttf);
+}
+
+.div-form {
+    width: 60%;
+    height: 55%;
+    max-height: 400px;
+    margin: 10px;
+}
+
+.icon-people {
+    font-size: 4rem;
+}
+
+.fs12 {
+    font-size: .75rem;
+}
+
+.form-check .form-check-input {
+    float: none;
+    margin-left: 0;
+}
+
+input {
+    direction: rtl;
+    font-family: vazir-med;
+}
+
+.input-error {
+    border: 1px solid red;
+    color: red;
+}
+
+::placeholder {
+    color: gray;
+}
+
+.input-error::placeholder {
+    color: red;
+}
+
+.custom-width {
+    width: 100%;
+}
+
+
+/* Start Responsive Modal */
+
+@media (max-width: 768px) {
+    .custom-width {
+        width: 50%;
+    }
+    .fs-title {
+        font-size: .8rem;
+    }
+    .btn-close {
+        width: .1em;
+        height: .1em;
+    }
+    .ul-modal {
+        font-size: .7rem;
+        padding-left: 0 !important;
+    }
+    .modal-btn button {
+        padding: .30rem .40rem;
+        font-size: .6rem;
+    }
+    .modal-content {
+        padding: .5rem !important;
+    }
+    .modal-body {
+        padding: .5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .fs-title {
+        font-size: .6rem;
+    }
+    .ul-modal {
+        font-size: .5rem;
+    }
+    .modal-btn button {
+        padding: .20rem .30rem;
+        font-size: .4rem;
+        border-radius: 2px;
+    }
+    .modal-content {
+        padding: .4rem !important;
+    }
+    .modal-body {
+        padding: .4rem;
+    }
+    .modal-footer {
+        padding: .4rem;
+    }
+    .modal-dialog {
+        width: 50%;
+        margin: 1.75rem auto !important;
+    }
+}
+
+
+/* End Responsive Modal */
+
+
+/* Start Responsive All */
+
+@media (max-width: 768px) {
+    .inp {
+        height: 40px;
+        line-height: 0px;
+    }
+    .icon-people {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .text-log {
+        font-size: .8rem;
+    }
+    .dsmn {
+        display: none;
+    }
+}
+
+
+/* Start Responsive All */
