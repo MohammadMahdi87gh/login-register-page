@@ -12,12 +12,12 @@ body {
 
 @font-face {
     font-family: vazir-bold;
-    src: url(../Fonts/Vazir-Bold.ttf);
+    src: url(Vazir-Bold.ttf);
 }
 
 @font-face {
     font-family: vazir-med;
-    src: url(../Fonts/Vazir-Medium.ttf);
+    src: url(Vazir-Medium.ttf);
 }
 
 .div-form {
