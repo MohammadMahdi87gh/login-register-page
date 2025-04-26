@@ -164,6 +164,9 @@ input {
     .inp {
         height: 40px;
     }
+    .float-start1 {
+        float: none !important;
+    }
 }
 
 
